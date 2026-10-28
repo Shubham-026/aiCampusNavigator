@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import {
   ArrowDownUp, ArrowRight, Building2, Check, ChevronRight, Clock3,
-  Compass, Footprints, LocateFixed, Navigation, Route as RouteIcon,
-  Sparkles, Stairs, X,
+  Compass, Footprints, LocateFixed, MoveVertical, Navigation, Route as RouteIcon,
+  Sparkles, X,
 } from "lucide-react";
 
 import { FloorMap } from "@/components/FloorMap";
@@ -28,7 +28,7 @@ function formatDuration(seconds: number): string {
 }
 
 function stepIcon(instruction: string) {
-  if (/stairs|staircase/i.test(instruction)) return <Stairs size={17} />;
+  if (/stairs|staircase/i.test(instruction)) return <MoveVertical size={17} />;
   if (/lift|elevator/i.test(instruction)) return <Building2 size={17} />;
   if (/start at/i.test(instruction)) return <LocateFixed size={17} />;
   return <Footprints size={17} />;

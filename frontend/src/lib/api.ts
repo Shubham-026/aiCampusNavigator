@@ -31,11 +31,11 @@ export interface RouteResponse {
   estimated_walking_time_seconds: number;
 }
 
-export interface SignVerificationResponse {
+export interface HealthResponse {
+  status: string;
+}
 
-  export interface HealthResponse {
-    status: string;
-  }
+export interface SignVerificationResponse {
   destination_id: string;
   matched: boolean;
   score: number;

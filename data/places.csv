@@ -1,0 +1,7 @@
+place_id,name,category,department,floor,x,y,floor_name,aliases,description
+GATE,Gate,entrance,,0,0,0,Ground Floor,gate|entrance,Main campus entrance
+J1,Junction J1,junction,,0,18.5,0,Ground Floor,j1|junction one,Main ground-floor corridor junction
+S1_GROUND,Stair S1 (Ground),stair,,0,30.5,0,Ground Floor,s1 ground|ground stairs,Ground-floor landing of Stair S1
+S1_FIRST,Stair S1 (First),stair,,1,30.5,0,First Floor,s1 first|first stairs,First-floor landing of Stair S1
+J2,Junction J2,junction,,1,39,0,First Floor,j2|junction two,Main first-floor corridor junction
+LAB101,Lab 101,laboratory,Physics,1,53,0,First Floor,lab 101|physics lab|phy lab|physics laboratory,Teaching and research laboratory

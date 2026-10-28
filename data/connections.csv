@@ -1,0 +1,6 @@
+connection_id,from_place_id,to_place_id,distance_m,transition_type
+C001,GATE,J1,18.5,corridor
+C002,J1,S1_GROUND,12.0,corridor
+C003,S1_GROUND,S1_FIRST,4.2,stairs
+C004,S1_FIRST,J2,8.5,corridor
+C005,J2,LAB101,14.0,corridor
